@@ -67,54 +67,60 @@ OBS: ??? Quando encontrar este símbolo pense em mais exemplos.
 
 Objeto é uma instância de uma classe. Um objeto é capaz de armazenar estados através de seus atributos e reagir a mensagens enviadas a ele, assim como se relacionar e enviar mensagens a outros objetos.
 
-Classe	Objeto
-Homem	João
- 	José
- 	Maria
-Computador	Desktop
- 	LapTop
- 	Palmop
+| Classe  |  Objeto  |
+| ------------------- | ------------------- |
+|  Homem | João |
+|  - |  José |
+|  - | Maria |
+
+| Classe  |  Objeto  |
+| ------------------- | ------------------- |
+|  Computador | Desktop |
+|  - |  LapTop |
+|  - | Palmop | 	
+ 	
 Atributos são características de um objeto. Basicamente a estrutura de dados que vai representar a classe.
 
 Exemplo:
 
-Objeto	Atributos
-Funcionario	Nome, Endereço, Telefone, CPF.
-Carro	Nome, Marca, Modelo, Ano, Cor.
-Livro	Autor, Editora, Ano da Publicação
- 
+| Objeto  |  Atributos  |
+| ------------------- | ------------------- |
+|  Funcionario | Nome, Endereço, Telefone, CPF. |
+|  Carro |  	Nome, Marca, Modelo, Ano, Cor. |
+|  Livro | Autor, Editora, Ano da Publicação | 	
+	
 
 Os atributos possuem valores.
 
 Exemplo:
 
-Objeto	Atributo	Valor
-Carro	Nome	Gol
- 	Marca	VW
- 	Ano	2009
- 	 	 
-Livro	Nome	Modelagem de Dados
- 	Autor	Claudio Mabelini
- 	Editora	Editec
- 	 	 
-Funcionario	Nome	Tiririca
- 	Cargo	Humorista
- 	Salario	R$ 5000,00
+| Objeto  |  Atributos  |  Valor  |
+| ------------------- | ------------------- | ------------------- |
+|  Carro | Nome | Gol |
+|  - |  	Marca |  	VW |
+|  - | Ano |  	2009 | 	
+
+| Objeto  |  Atributos  |  Valor  |
+| ------------------- | ------------------- | ------------------- |
+|  Livro | Nome | Modelagem de Dados |
+|  - |  	Autor |  	Claudio Mabelini |
+|  - | Editora |  	Editec |
+		
+| Objeto  |  Atributos  |  Valor  |
+| ------------------- | ------------------- | ------------------- |
+|  Funcionario | Nome | Tiririca |
+|  - |  	Cargo |  	Humorista |
+|  - | Salario |  	R$ 5000,00 |		 
+
+
 Métodos definem as habilidades dos objetos. Um método em uma classe é apenas uma definição. A ação só ocorre quando o método é invocado através do objeto.
 
- 
-
-Objeto	Método
-Cachorro	Acordar, Comer, Beber, Latir, Dormir.
-Pessoa	Acordar, Correr, Estudar, Trabalhar, Falar, Gritar, Emocionar.
-Carro	Ligar, Andar, ???
-Rádio	Ligar, Tocar, Sintonizar, ???
-Telefone	Discar, Tocar, ???
- 
-
-VÍDEO AULA SOBRE OOP (BTBH: Bom Trabalho e Bem Humorado).
-
- 
+| Objeto  |  Método  |
+| ------------------- | ------------------- |
+|  Cachorro | Acordar, Comer, Beber, Latir, Dormir. |
+|  Pessoa |  	Acordar, Correr, Estudar, Trabalhar, Falar, Gritar, Emocionar. |
+|  Rádio | Ligar, Tocar, Sintonizar, ??? | 	
+|  Telefone | 	Discar, Tocar, ??? | 
 
 REVISÃO:
 
@@ -128,14 +134,14 @@ Um método de um objeto se refere àquilo que o objeto faz, ao seu funcionamento
 
 Exemplo:
 
-Classe	Objeto	Atributos	Métodos
-Eletronicos	Televisao	Imagem	Ligar
- 	 	Som	Sintonizar
- 	 	 	Desligar
- 	 	 	 
- 	Radio	Som	Ligar
- 	 	Antena	Sintonizar
- 	 	 	TocarCD
- 	 	 	Desligar
- 	???	 	 
+| Classe  |  Objeto  |  Atributos  |  Métodos  |
+| ------------------- | ------------------- | ------------------- | ------------------- |
+|  Eletronicos | Televisao |  Imagem |  Ligar |
+|  - | Radio |  Som |  Ligar |
+|  - | 	- |  Antena |  Sintonizar |
 
+			
+ 	 
+
+
+#Material original: http://www.cpscetec.com.br/adistancia/poovb2008/Aula01/aula01.html
